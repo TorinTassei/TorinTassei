@@ -1,0 +1,86 @@
+.product {
+  display: flex;
+  justify-content: space-around;
+}
+.info > .name {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.info > .status > span {
+  color: #0089ff;
+}
+
+.price {
+  font-size: 2rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.size {
+  display: flex;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.size > div {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid gainsboro;
+}
+.size > div:first-child {
+  color: #fff;
+  background-color: red;
+}
+
+.amount {
+  margin-top: 20px;
+}
+
+.amount > input {
+  margin-top: 5px;
+  width: 100px;
+  height: 35px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.info > button {
+  margin-top: 20px;
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.description {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.description > .content {
+  border: 1px solid gainsboro;
+  padding: 10px;
+  white-space: pre;
+}
+
+.description > .label {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
